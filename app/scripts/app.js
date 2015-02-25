@@ -11,7 +11,8 @@
 angular
   .module('dcunited08githubioApp', [
     'ngRoute',
-    'ngTouch'
+    'ngTouch',
+    'ngMaterial'
   ])
   .config(function ($routeProvider) {
     $routeProvider
