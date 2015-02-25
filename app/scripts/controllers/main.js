@@ -8,9 +8,9 @@
  * Controller of the dcunited08githubioApp
  */
 angular.module('dcunited08githubioApp')
-	.controller('MainCtrl', ffunction($scope, $mdSidenav) {
+	.controller('MainCtrl', function($scope, $mdSidenav) {
 		$scope.toggleSidenav = function(menuId) {
 			$mdSidenav(menuId).toggle();
 		};
 
-	}]);
+	});
